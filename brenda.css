@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f6fff6;
+    color: #2e472e;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #c8e6c9;
+}
+
+.logo {
+    width: 100px;
+}
+
+nav button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: #1b5e20;
+}
+
+/* Secciones */
+.section {
+    padding: 40px;
+    background-color: #ffffff;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* Productos */
+.categorias button {
+    margin: 5px;
+    padding: 10px;
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.categorias button:hover {
+    background-color: #2e7d32;
+}
+
+.producto {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #e8f5e9;
+    border-radius: 10px;
+}
+
+/* Formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #88aa88;
+}
+
+form button {
+    padding: 10px;
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #1b5e20;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #c8e6c9;
+    margin-top: 20px;
+}
+
